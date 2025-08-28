@@ -48,3 +48,42 @@ figure img {
     height: auto;
     display: block;
 }
+
+.contato {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.contato__secao {
+    flex: 1;
+}
+
+.contato__subtitulo {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contato__info {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.contato__info dd {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.contato__info a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contato__info a:hover {
+    text-decoration: underline;
+}
+
+small {
+    font-style: italic;
+    color: #666;
+}
